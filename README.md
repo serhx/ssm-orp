@@ -35,18 +35,22 @@ Create environment
 ```bash
 conda create -n ssm_ptq python=3.10 -y
 conda activate ssm_ptq
-pip install torch numpy pandas scikit-learn matplotlib pytest ```
+pip install torch numpy pandas scikit-learn matplotlib pytest
+```
 
 (or activate it:
 
-conda activate ssm_ptq )
+```bash
+conda activate ssm_ptq
+```)
 
 Navigate to the project directory
 
-cd ~\ssm_ptq_project
+```bash
 
 python train_baseline.py
 
 python run_ptq_experiment.py
 
 python plot_results.py
+```
